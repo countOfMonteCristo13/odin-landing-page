@@ -1,10 +1,46 @@
 :root{
     --background-color:#1f2937;
-    --primary-font: 'Roboto', sans-serif;
+    --primary-font: 'Roboto','Arial', sans-serif;
+    --text-color:#f9faf8;
 }
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white;
 }
+
+.section-padding{
+    padding: 0 3rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background: var(--background-color);
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li{
+    font-size: 18px;
+    color: var(--text-color);
+}
+
