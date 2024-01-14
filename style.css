@@ -8,21 +8,22 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: white;
+    color: var(--text-color)
 }
 
 .section-padding{
     padding: 0 3rem;
 }
 
-
 a{
     text-decoration: none;
 }
 
+/* NAVBAR */
+
 nav{
     background: var(--background-color);
-    padding: 1rem 3rem;
+    padding: 1rem 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +31,6 @@ nav{
 
 nav h1{
     font-size: 24px;
-    color: var(--text-color);
 }
 
 nav ul{
@@ -41,6 +41,44 @@ nav ul{
 
 nav ul li{
     font-size: 18px;
-    color: var(--text-color);
 }
 
+/* HERO */
+
+.hero-section{
+    padding: 3rem 10rem;
+    background: var(--background-color);
+    display: flex;
+}
+
+.hero-info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-title{
+    font-size: 48px;
+}
+
+.hero-desc{
+    font-size: 18px;
+}
+
+.hero-btn{
+    background: blue;
+    outline: none;
+    border: none;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.hero-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
